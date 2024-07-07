@@ -4,74 +4,94 @@
       "id": "1",
       "src": "./img/product-chain-1.png",
       "title": "Front-End",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      "description": ["HTML","CSS","Javascript","Bootstrap","ChartJS"]
     },
     {
       "id": "2",
       "src": "./img/tag-1.png",
       "title": "Back-End",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      "description": ["NodeJS","SQL","ExpressJS","Postman API"]
     },
     {
       "id": "3",
       "src": "./img/feather-pen-2.png",
-      "title": "UI & UX Design",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      "title": "Programming",
+      "description": ["C/C++","Java","Python","Git","DSA using Java"]
     },
     {
       "id": "4",
       "src": "./img/feather-pen-1.png",
-      "title": "Webflow Development",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      "title": "Database",
+      "description": ["MySQL","MongoDB"]
+    },
+    {
+      "id": "5",
+      "src": "./img/feather-pen-1.png",
+      "title": "Framework",
+      "description": ["ReactJS","NextJS"]
     }
   ],
   "portfolio": [
     {
       "id": "1",
-      "src": "./img/placeholder-image.png",
-      "title": "Ahuse",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "link": "View In Github"
+      "src": "./img/agri.png",
+      "title": "AgriTrace",
+      "description": "Developed an innovative website that monitors crops and identifies diseases, includes a marketplace for renting farming tools, and features a carbon calculator to measure carbon footprints.",
+      "Skills":["React.js","NodeJS","MongoDB"],
+      "link": "https://github.com/AasthaSachdeva29/AgriTrace/tree/master",
+      "wl":"https://techbyte-360.netlify.app/"
+      
     },
     {
       "id": "2",
-      "src": "./img/placeholder-image-1.png",
-      "title": "App Dashboard",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "link": "View In Github"
+      "src": "./img/tech.png",
+      "title": "SkillsUpNow",
+      "description": "Developed a website that uses AI to predict job market trends, helping to adjust courses and syllabus to keep youth skilled and employed in a rapidly changing world.",
+      "Skills":["HTML","CSS","Javascript","ChartJS","Bootstrap"],
+      "link": "https://github.com/AasthaSachdeva29/SkillsUpNow.git",
+      "wl":"https://techbyte-360.netlify.app/"
     },
     {
       "id": "3",
-      "src": "./img/placeholder-image-2.png",
-      "title": "Easy Rentn",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "link": "View In Github"
+      "src": "./img/news.png",
+      "title": "TazaKhabar",
+      "description": "Developed a dynamic website that curates and displays current news tailored to individual interests, including sports, entertainment, science, and more.",
+      "Skills":["React.js","API Integration","Bootstrap"],
+      "link": "https://github.com/AasthaSachdeva29/TazaKhabar-NewsApp/tree/master",
+      "wl":"https://techbyte-360.netlify.app/"
+
     }
   ],
   "testimonial": [
     {
       "id": "1",
       "count": "5",
-      "src": "./img/avatar-image.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "src": "./img/ninjalogo.png",
+      "description": "SDE intern at Ninjacart",
       "author_name": "Dianne Russel",
       "author_designation": "Starbucks"
+    }
+    
+  ],
+
+  "ach": [
+    {
+      "id": "1",
+      "description": "Winner of Ninjacart Agritech Hackathon",
+      "link":"https://drive.google.com/file/d/109bw0F3nEF1_829R_Isl8J7kuPbNEwLX/view?usp=sharing"
+     
     },
     {
       "id": "2",
-      "count": "5",
-      "src": "./img/avatar-image-1.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "author_name": "Kristin Watson",
-      "author_designation": "Louis Vuitton"
+      "description": "Finalist in All India Women Hackathon by Shooting Star Foundation",
+      "link":"https://drive.google.com/file/d/1O5v4YqcTDK91i4jZ024NH-9wMa_h_Z_P/view"
     },
     {
       "id": "3",
-      "count": "5",
-      "src": "./img/avatar-image-2.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "author_name": "Kathryn Murphy",
-      "author_designation": "McDonald's"
+      "description": "2.5 star on LeetCode",
+      "link":"https://leetcode.com/AasthaSach29/"
+     
     }
+    
   ]
 }

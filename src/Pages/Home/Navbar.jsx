@@ -35,7 +35,7 @@ function Navbar() {
   return (
     <nav className={`navbar ${navActive ? "active" : ""}`}>
       <div>
-        <img src="./img/logo.svg" alt="Logoipsum" />
+        <img src="./img/lgg.png"  style={{width:"220px",height:"60px"}}/>
       </div>
       <a
         className={`nav__hamburger ${navActive ? "active" : ""}`}
@@ -69,20 +69,6 @@ function Navbar() {
               smooth={true}
               offset={-70}
               duration={500}
-              to="MyPortfolio"
-              className="navbar--content"
-            >
-              Portfolio
-            </Link>
-          </li>
-          <li>
-            <Link
-              onClick={closeMenu}
-              activeClass="navbar--active-content"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
               to="AboutMe"
               className="navbar--content"
             >
@@ -97,10 +83,40 @@ function Navbar() {
               smooth={true}
               offset={-70}
               duration={500}
+              to="MyPortfolio"
+              className="navbar--content"
+            >
+              Projects
+            </Link>
+          </li>
+          
+          <li>
+            <Link
+              onClick={closeMenu}
+              activeClass="navbar--active-content"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
               to="testimonial"
               className="navbar--content"
             >
-              Testimonials
+              Experience
+            </Link>
+          </li>
+
+          <li>
+            <Link
+              onClick={closeMenu}
+              activeClass="navbar--active-content"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              to="achievments"
+              className="navbar--content"
+            >
+              Achievments
             </Link>
           </li>
         </ul>
