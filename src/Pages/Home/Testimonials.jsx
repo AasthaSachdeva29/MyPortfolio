@@ -16,7 +16,7 @@ export default function Testimonial() {
               <div className="text-container">
                 <p className="text-md">
                   {item.description} 
-                  <i className="date" style={{marginLeft:"40%"}}>May 2024-present</i>
+                  <i className="date" style={{marginLeft:"40%"}}>May 2024 - Sep 2024</i>
                 </p>
                 <ul>
                   <li>Developing and maintaining web applications using Next.js, React.js</li>
