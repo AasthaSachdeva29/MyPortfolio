@@ -14,7 +14,7 @@ export default function HeroSection() {
             <br /> apply my skills in solving real-world problems.
           </p>
         </div>
-        <a href="https://drive.google.com/file/d/17w7tYDHaA_KS9agDJXYfcGAidtVmT7SM/view?usp=drive_link" target="_blank">
+        <a href="https://drive.google.com/file/d/1NSswxlclCuxe-7aRxbtyW8m-q6_4bTDS/view?usp=drive_link" target="_blank">
         <button className="btn btn-primary" style={{marginTop:"20px"}}>Get My Resume</button>
         </a>
       </div>
